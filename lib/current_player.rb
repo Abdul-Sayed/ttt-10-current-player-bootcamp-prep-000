@@ -15,9 +15,17 @@ end
 
 
 def current_player(board)
+<<<<<<< HEAD
   if turn_count(board).even?
     return "X"
   elsif turn_count(board).odd?
     return "O"
   end
 end
+=======
+    if turn_count(board).even?
+        return "X"
+    elsif turn_count(board).odd?
+        return "O"
+end
+>>>>>>> c1f2bc6b299412cf8e58abaf9154675ddcb3254a
